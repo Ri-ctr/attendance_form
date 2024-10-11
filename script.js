@@ -5,7 +5,7 @@ document.getElementById('attendanceForm').addEventListener('submit', function(ev
     const id = document.getElementById('id').value;
 
     // Send data to the server
-    fetch('https://your-server-url.com/submit', {
+    fetch('https://your-replit-name.username.repl.co/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

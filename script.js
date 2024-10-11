@@ -4,6 +4,8 @@ document.getElementById('attendanceForm').addEventListener('submit', function(ev
     const name = document.getElementById('name').value;
     const id = document.getElementById('id').value;
 
+    console.log({ name, id }); // Log the data being sent
+
     // Send data to the server
     fetch('https://14be4976-2bdf-40ff-bc2f-e3b95d41b9e1-00-2e5spuvhz454d.spock.replit.dev/submit', {
         method: 'POST',
